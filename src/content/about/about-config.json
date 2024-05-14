@@ -1,0 +1,90 @@
+{
+    "educations": [
+        {
+            "id": "edu-1",
+            "school": "Fachhochschule der Wirtschaft (FHDW)",
+            "degree": "Bachelor of Science in Business Informatics",
+            "duration": "Aug 2017 - Jul 2020",
+            "content": [
+                "Courses: Software Engineering, Advanced Algorithms, Business Administration, Corporate Management"
+            ]
+        },
+        {
+            "id": "edu-2",
+            "school": "Georg-Simon-Ohm-School Cologne",
+            "degree": "IT Specialist for Application Programming",
+            "duration": "Aug 2017 - Jul 2020",
+            "content": [
+                "Courses: Data Structures, OOP, Computer Networks, Algorithms"
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "id": "exp-1",
+            "company": "TxK Gaming Studios",
+            "position": "Founder & Nerd",
+            "duration": "Jul 2021 - Today",
+            "description": ["Managing Director, Manager & Game Developer"]
+        },
+        {
+            "id": "exp-2",
+            "company": "Audoora",
+            "position": "Software Engineer",
+            "duration": "Feb 2021 - Feb 2022",
+            "description": [
+                "Automation Software development for a new platform in the hearing-aid industry",
+                "Implementation as clustered microservices with a strong focus on scalability and data-driven operations"
+            ]
+        },
+        {
+            "id": "exp-3",
+            "company": "Bayer",
+            "position": "IT Technician",
+            "duration": "Aug 2017 - Jan 2021",
+            "description": [
+                "Supply Chain Reporting and Analysis in Python, Tableau & Grafana",
+                "Improvement of internal Continuous Integration & Deployment pipelines",
+                "Mobile Application Development for IOS devices"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "title": "Programming",
+            "tools": [
+                "C#",
+                "Java",
+                "Python",
+                "C",
+                "SQL",
+                "Basic",
+                "Shell"
+            ]
+        },
+        {
+            "title": "Unity & Tools",
+            "tools": [
+                "Unity Cloud Services",
+                "XR (OpenXR, Oculus SDK, SteamVR)",
+                "Networking (NetCode for GO, DarkRift)",
+                "VCS (Git, Unity DevOps)",
+                "CI/CD (Teamcity, Jenkins)"
+            ]
+        },
+        {
+            "title": "Computer Networks",
+            "tools": [
+                "Linux",
+                "Cloudflare",
+                "CDN (Bunny)",
+                "Docker",
+                "Kubernetes"
+            ]
+        },
+        {
+            "title": "Databases",
+            "tools": ["MySQL", "PostgreSQL", "SQlite", "MongoDB"]
+        }
+    ]
+}

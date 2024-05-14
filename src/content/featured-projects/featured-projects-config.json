@@ -1,0 +1,61 @@
+[
+    {
+        "id": "featured-project-dfd",
+        "title": "Dungeon Full Dive",
+        "year": "Jul 2021 - Present",
+        "location": "TxK Gaming Studios",
+        "demo": "https://partner.steamgames.com/apps/landing/2839600",
+        "tags": ["Unity", "C#", "XR", "PC", "Games", "SQL", "K8s", "Docker", "ASP.NET"],
+        "description": "The most immersive way to play Tabletop RPGs (TTRPGs) like Dungeons & Dragons with crossplay for VR and PC.",
+        "image": "/assets/featured-projects/dfd_keyart_lowres.jpg",
+        "jpg": "/assets/featured-projects/dfd_keyart_lowres.jpg"
+    },
+    {
+        "id": "featured-project-audoora",
+        "title": "Order Automation Interface",
+        "year": "Feb 2021 - Feb 2022",
+        "location": "Audoora",
+        "tags": ["Spring", "Java", "NodeJS", "Vue.js", "Docker", "Python"],
+        "description": "Interface for order automation of hearing aids between Web apps and ERP systems.",
+        "readMore": "https://audoora.de/",
+        "image": "/assets/featured-projects/audoora.jpg",
+        "jpg": "/assets/featured-projects/audoora.jpg"
+    },
+    {
+        "id": "featured-project-scrapbook",
+        "title": "Scrapbook",
+        "year": "Jan 2021 - May 2021",
+        "location": "Indiana University",
+
+        "tags": [
+            "Angular 11",
+            "Flask",
+            "Node",
+            "Python",
+            "TypeScript",
+            "Docker",
+            "Docker Hub",
+            "Jenkins",
+            "Kubernetes",
+            "GKE",
+            "GCP"
+        ],
+        "demo": "http://34.69.102.109/",
+        "github": "https://github.com/hrishikeshpaul/scrapbook",
+        "description": "A micro-service architecture based web application that enables users to upload, share and manage images.",
+        "readMore": "https://hrishikeshpaul.medium.com/scrapbook-a-micro-service-based-photo-sharing-application-3a8760681af6",
+        "image": "/assets/featured-projects/scrapbook.webp",
+        "jpg": "/assets/featured-projects/scrapbook.jpeg"
+    },
+    {
+        "id": "featured-project-measure-ux",
+        "location": "Indiana University",
+        "title": "Measuring User Experience",
+        "year": "Sep 2020 - Dec 2020",
+        "tags": ["UX Research", "User Journey", "Experience Mapping", "Surveys", "Interviews", "Adobe XD"],
+        "description": "A project to quantify user experiences demonstrated by measuring the user experience of uploading a photo on Instagram.",
+        "readMore": "https://hrishikeshpaul.medium.com/measuring-user-experience-an-instagram-case-study-89bfb78f2c6b",
+        "image": "/assets/featured-projects/measure-ux.webp",
+        "jpg": "/assets/featured-projects/measure-ux.jpeg"
+    }
+]

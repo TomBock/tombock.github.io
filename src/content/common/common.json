@@ -1,0 +1,30 @@
+{
+    "name": "Tom Bockhorn",
+    "logoType": {
+        "mobile": "TB",
+        "desktop": "Tom Bockhorn"
+    },
+    "mainPicture": "/assets/HP.webp",
+    "mainPictureJPG": "/assets/HP.jpeg",
+    "pronunciation": "/bock-horn/",
+    "audioFile": "/assets/name-pro.mp3",
+    "cssVarPrefix": "hp",
+    "email": "bockhorn.tom@web.de",
+    "linkedin": "https://www.linkedin.com/in/tom-bockhorn-28464b168/",
+    "github": "https://github.com/TomBock",
+    "resume": "https://google.com/",
+    "socials": [
+        {
+            "type": "linkedin",
+            "link": "https://www.linkedin.com/in/tom-bockhorn-28464b168/"
+        },
+        {
+            "type": "github",
+            "link": "https://github.com/TomBock"
+        },
+        {
+            "type": "mail",
+            "link": "mailto:bockhorn.tom@web.de"
+        }
+    ]
+}
