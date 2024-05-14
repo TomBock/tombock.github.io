@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import { Button, Flex, IconButton, useBreakpointValue } from "@chakra-ui/react";
 
-import { ArrowRightIcon, GitHubIcon, LinkIcon } from "utils/Icons";
+import { ArrowRightIcon, GitHubIcon, SteamIcon, LinkIcon } from "utils/Icons";
 import { open } from "utils/Functions";
 
 interface GitHubButtonProps {
@@ -19,7 +19,13 @@ interface LiveDemoProps {
     display?: any;
 }
 
-interface Props extends GitHubButtonProps, ReadMoreProps, LiveDemoProps {}
+
+interface SteamProps {
+    steam?: string;
+    display?: any;
+}
+
+interface Props extends GitHubButtonProps, ReadMoreProps, LiveDemoProps, SteamProps {}
 
 export const ReadMore: FC<ReadMoreProps> = ({ readMore }) => {
     return readMore ? (
@@ -74,13 +80,32 @@ export const LiveDemo: FC<LiveDemoProps> = ({ demo, display }) => {
     ) : null;
 };
 
-export const ProjectCardFooter: FC<Props> = ({ readMore, github, demo }) => {
+export const SteamButton: FC<SteamProps> = ({ steam, display }) => {
+    const as = useBreakpointValue({ base: IconButton, lg: Button });
+
+    return steam ? (
+        <Button
+            data-aos="fade"
+            data-aos-delay="200"
+            as={as}
+            display={display}
+            leftIcon={<SteamIcon fontSize="14pt" />}
+            icon={<SteamIcon fontSize="14pt" />}
+            onClick={() => open(steam)}
+        >
+            Steam
+        </Button>
+    ) : null;
+};
+
+export const ProjectCardFooter: FC<Props> = ({ readMore, github, demo, steam }) => {
     return (
         <Flex justifyContent={readMore ? "space-between" : "flex-end"} alignItems="center" pt="8">
             <ReadMore readMore={readMore} />
-            <Flex gap="4" justifyContent="space-between" alignItems="center" display={demo || github ? "flex" : "none"}>
+            <Flex gap="4" justifyContent="space-between" alignItems="center" display={demo || github || steam ? "flex" : "none"}>
                 <LiveDemo demo={demo} />
                 <GitHubButton github={github} />
+                <SteamButton steam={steam} />
             </Flex>
         </Flex>
     );
