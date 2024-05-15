@@ -4,7 +4,7 @@ As Managing director, I act as a **Producer**, that handles the Product planning
 
 My Management role is similar to a **Scrum Master**, where I am planning and facilitating the development workflow
 of the various departments, coordinating management tools and monitoring our progress in consideration of our goals.
-My Job is to make everybody is up-to-date and able to perform at their best.
+My Job is to make sure everybody is up-to-date and able to perform at their best.
 
 And in my role as **Game Developer**, I hold responsibility over the DevOps and Release processes, as well as the
 actual implementation of various Gameplay features. Due to my experience in Web development, I often handle 

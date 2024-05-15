@@ -63,6 +63,15 @@
             ]
         },
         {
+            "title": "People",
+            "tools": [
+                "Staff Management",
+                "Product Planning",
+                "Agile Development",
+                "Scrumban"
+            ]
+        },
+        {
             "title": "Unity & Tools",
             "tools": [
                 "Unity Cloud Services",

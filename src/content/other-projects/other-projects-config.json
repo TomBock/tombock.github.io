@@ -37,5 +37,14 @@
         "description": "In the last year, I intensively studied Unity VFX & Shader graph to improve my knowledge in those areas.",
         "image": "/assets/other-projects/vfx.gif",
         "jpg": "/assets/other-projects/vfx.gif"
+    },
+    {
+        "id": "other-project-pipeline",
+        "title": "Build Automation Pipeline (CD)",
+        "year": "2021 - Present",
+        "tags": ["CI/CD", "DevOps", "Unity", "Tooling", "Teamcity", "Steam"],
+        "description": "For Dungeon Full Dive, I developed a Continuous Deployment Pipeline that automatically builds and deploys to Steam on specific triggers like commits. In Addition, automated tests are performed and the build log analyzed for certain issues (e.g. Shader stripping). Once the build is completed, the pipeline notifies the Team in Discord and Teams.",
+        "image": "/assets/other-projects/pipeline.jpg",
+        "jpg": "/assets/other-projects/pipeline.jpg"
     }
 ]

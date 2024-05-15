@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import { Button, Flex, IconButton, useBreakpointValue } from "@chakra-ui/react";
 
-import { ArrowRightIcon, GitHubIcon, SteamIcon, LinkIcon } from "utils/Icons";
+import { ArrowRightIcon, GitHubIcon, SteamIcon, LinkIcon, KickstarterIcon } from "utils/Icons";
 import { open } from "utils/Functions";
 
 interface GitHubButtonProps {
@@ -25,7 +25,12 @@ interface SteamProps {
     display?: any;
 }
 
-interface Props extends GitHubButtonProps, ReadMoreProps, LiveDemoProps, SteamProps {}
+interface KickstarterProps {
+    kickstarter?: string;
+    display?: any;
+}
+
+interface Props extends GitHubButtonProps, ReadMoreProps, LiveDemoProps, SteamProps, KickstarterProps {}
 
 export const ReadMore: FC<ReadMoreProps> = ({ readMore }) => {
     return readMore ? (
@@ -98,13 +103,32 @@ export const SteamButton: FC<SteamProps> = ({ steam, display }) => {
     ) : null;
 };
 
-export const ProjectCardFooter: FC<Props> = ({ readMore, github, demo, steam }) => {
+export const KickstarterButton: FC<KickstarterProps> = ({ kickstarter, display }) => {
+    const as = useBreakpointValue({ base: IconButton, lg: Button });
+
+    return kickstarter ? (
+        <Button
+            data-aos="fade"
+            data-aos-delay="200"
+            as={as}
+            display={display}
+            leftIcon={<KickstarterIcon fontSize="14pt" />}
+            icon={<KickstarterIcon fontSize="14pt" />}
+            onClick={() => open(kickstarter)}
+        >
+            Kickstarter
+        </Button>
+    ) : null;
+};
+
+export const ProjectCardFooter: FC<Props> = ({ readMore, github, demo, steam, kickstarter }) => {
     return (
         <Flex justifyContent={readMore ? "space-between" : "flex-end"} alignItems="center" pt="8">
             <ReadMore readMore={readMore} />
             <Flex gap="4" justifyContent="space-between" alignItems="center" display={demo || github || steam ? "flex" : "none"}>
                 <LiveDemo demo={demo} />
                 <GitHubButton github={github} />
+                <KickstarterButton kickstarter={kickstarter} />
                 <SteamButton steam={steam} />
             </Flex>
         </Flex>

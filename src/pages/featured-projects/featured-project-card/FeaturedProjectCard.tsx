@@ -16,6 +16,7 @@ interface Props {
     demo?: string;
     github?: string;
     steam?: string;
+    kickstarter?: string;
     tags: string[];
     description: string;
     readMore?: string;
@@ -45,6 +46,7 @@ export const FeaturedProjectCard: FC<Props> = ({
     demo,
     github,
     steam,
+    kickstarter,
     tags,
     description,
     readMore,
@@ -110,7 +112,7 @@ export const FeaturedProjectCard: FC<Props> = ({
                     <Tags tags={tags} id={id} />
                 </Box>
 
-                <ProjectCardFooter readMore={readMore} github={github} demo={demo} steam={steam}/>
+                <ProjectCardFooter readMore={readMore} github={github} demo={demo} steam={steam} kickstarter={kickstarter}/>
             </Flex>
 
             <Box
