@@ -1,13 +1,15 @@
 **As part of [TxK Gaming Studios](https://txkgaming.com/)...**
 
-As Managing director, I act as a **Producer**, that handles the Product planning, Financing and Developer Relations.
+As Managing director, I acted as a **Producer**, that handled the Product planning, Financing and Developer Relations.
 
-My Management role is similar to a **Scrum Master**, where I am planning and facilitating the development workflow
-of the various departments, coordinating management tools and monitoring our progress in consideration of our goals.
-My Job is to make sure everybody is up-to-date and able to perform at their best.
+My Management role was similar to a **Scrum Master**, where I planned and facilitated the development workflow. My Job was to make sure everybody is up-to-date and able to perform at their best.
 
-And in my role as **Game Developer**, I hold responsibility over the DevOps and Release processes, as well as the
-actual implementation of various Gameplay features. Due to my experience in Web development, I often handle 
-communication with Web Services and Data Management.
+And in my role as **Game Developer**, I faced various technological challenges, such as hardware limitations or network instability, and developed a multitude of solutions, ranging from gameplay to deployment.
+My main involvements were: 
+* Multiplayer Programming (Server- & Client-side coding)
+* Performance Optimization
+* D&D Ruleset Integration (Gameplay and stats)
+* Test- & Release Automation (CI / CD)
+* Unity Engine Tool Development
 
-And this is only the tip of the iceberg, as is the nature of a small company, you will somehow do everything a little bit 😉
+I am very glad for my time at TxK and the possibility to learn new skills and hone others. But similarly, I realized there is a lot more that I want to about Game Development and I look forward to every opportunity to do so. :D

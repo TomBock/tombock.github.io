@@ -2,24 +2,34 @@
     {
         "id": "featured-project-dfd",
         "title": "Dungeon Full Dive",
-        "year": "Jul 2021 - Present",
+        "year": "Jul 2021 - Oct 2024",
         "location": "TxK Gaming Studios",
         "steam": "https://partner.steamgames.com/apps/landing/2839600",
         "kickstarter": "https://www.kickstarter.com/projects/dfdstudios/dungeon-full-dive-make-your-dnd-worlds-real",
         "tags": ["Unity", "C#", "XR", "PC", "DarkRift", "Games", "SQL", "K8s", "Docker", "ASP.NET", "Lead Dev", "Agile Development"],
-        "description": "Originally funded with a Kickstarter Campaign, Dungeon Full Dive is the most immersive way to play Tabletop RPGs (TTRPGs) like Dungeons & Dragons for VR and PC. Next to the technical challenge of building a sandbox game compatible with both platforms, I successfully managed a team of up to 5 Developers and 3 QA.",
+        "description": "Originally funded with a Kickstarter Campaign, Dungeon Full Dive is a new, immersive way to play Tabletop RPGs (TTRPGs) like Dungeons & Dragons for VR and PC. I lead the team against the initial technical challenges of building a sandbox multiplayer game compatible with both platforms, namely Peer 2 Peer Multiplayer, Performance Optimization & Input complexity. Later, my focus shifted to the ruleset implementation of D&D and associated gameplay mechanics while managing a team of up to 5 Developers and 3 QA.",
         "image": "/assets/featured-projects/dfd_keyart_lowres.jpg",
         "jpg": "/assets/featured-projects/dfd_keyart_lowres.jpg"
     },
     {
         "id": "featured-project-tow",
-        "title": "Fantasy Tavern",
+        "title": "Smalltown Tavern (VR)",
         "year": "Mar 2024",
         "location": "Düsseldorf",
         "tags": ["Unity", "C#", "VFX", "ShaderLab", "Networking for GOs", "Game Jam"],
-        "description": "A Game created during a Game Jam where you and your friends are tasked with managing a bar and all its angry customers in VR. Next to programming, I learned to manage Art Direction and worked on Shaders & VFX.",
+        "description": "A Game created during a Game Jam where you and your friends are tasked with managing a bar and all its angry customers in VR. Next to programming, I helped with the Art Direction and worked on Shaders & VFX.",
         "image": "/assets/featured-projects/fantasytavern.jpg",
         "jpg": "/assets/featured-projects/fantasytavern.jpg"
+    },
+    {
+        "id": "featured-project-modding",
+        "title": "Modding",
+        "year": "2023 - 2024",
+        "location": "Private",
+        "tags": ["C#", "Java", "C++", "Unity", "Decompiling"],
+        "description": "I spent the last year modding a bunch of games that I was interested in. One for fun :), and two for learning more about different programming techniques and architectures used in games. Some of them include Against the Storm, Minecraft, Desperados & Rimworld.",
+        "image": "/assets/featured-projects/modding.jpg",
+        "jpg": "/assets/featured-projects/modding.jpg"
     },
     {
         "id": "featured-project-audoora",

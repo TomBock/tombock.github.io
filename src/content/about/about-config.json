@@ -23,9 +23,9 @@
         {
             "id": "exp-1",
             "company": "TxK Gaming Studios",
-            "position": "Founder & Nerd",
-            "duration": "Jul 2021 - Today",
-            "description": ["Managing Director, Manager & Game Developer"]
+            "position": "Founder & Lead Game Developer",
+            "duration": "Jul 2021 - Oct 2024",
+            "description": ["Managing Director, Game Developer & Programmer (see above)"]
         },
         {
             "id": "exp-2",
@@ -55,6 +55,7 @@
             "tools": [
                 "C#",
                 "Java",
+                "C++",
                 "Python",
                 "C",
                 "SQL",
