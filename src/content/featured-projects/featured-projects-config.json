@@ -12,6 +12,16 @@
         "jpg": "/assets/featured-projects/dfd_keyart_lowres.jpg"
     },
     {
+        "id": "featured-project-scifi",
+        "title": "Sci-Fi Sneak (Gamejam)",
+        "year": "Mar 2025",
+        "location": "Düsseldorf",
+        "tags": ["Unity", "C#", "VFX", "ShaderGraph", "Game Jam"],
+        "description": "A Sci-Fi/Cyberpunk inspired sneaking rougelike is a hobby project that started as a Gamejam idea and is now continuously being worked on. ",
+        "image": "/assets/featured-projects/scifigame.gif",
+        "jpg": "/assets/featured-projects/scifigame.gif"
+    },
+    {
         "id": "featured-project-tow",
         "title": "Smalltown Tavern (VR)",
         "year": "Mar 2024",
@@ -24,22 +34,11 @@
     {
         "id": "featured-project-modding",
         "title": "Modding",
-        "year": "2023 - 2024",
+        "year": "2018 - today",
         "location": "Private",
         "tags": ["C#", "Java", "C++", "Unity", "Decompiling"],
-        "description": "I spent the last year modding a bunch of games that I was interested in. One for fun :), and two for learning more about different programming techniques and architectures used in games. Some of them include Against the Storm, Minecraft, Desperados & Rimworld.",
+        "description": "I spend a bunch of my time modding a bunch of games that I was interested in. One for fun :), and two for learning more about different programming techniques and architectures used in games. Some of them include Against the Storm, Minecraft, Desperados & Rimworld.",
         "image": "/assets/featured-projects/modding.jpg",
         "jpg": "/assets/featured-projects/modding.jpg"
-    },
-    {
-        "id": "featured-project-audoora",
-        "title": "Order Automation Web App",
-        "year": "Feb 2021 - Feb 2022",
-        "location": "Audoora",
-        "tags": ["Spring", "Java", "NodeJS", "Vue.js", "Docker", "Python"],
-        "description": "An interface for automating orders of hearing aids that connects internal Web Apps & User interfaces to the ERP systems of various manufacturers. In addition to the programming, I communicated with customers to manage and understand their expectation.",
-        "readMore": "https://audoora.de/",
-        "image": "/assets/featured-projects/audoora.jpg",
-        "jpg": "/assets/featured-projects/audoora.jpg"
     }
 ]

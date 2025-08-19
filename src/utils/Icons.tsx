@@ -1,5 +1,6 @@
 export { BiLink as LinkIcon } from "react-icons/bi";
 export {
+    FaDiscord as DiscordIcon,
     FaLinkedin as LinkedInIcon,
     FaGithub as GitHubIcon,
     FaKickstarter as KickstarterIcon,
